@@ -1,0 +1,30 @@
+{
+    "orderName":"Order002",
+    "modelNumber":"092X Phones, 425-k-2019-22A Model",
+    "order":[
+        {
+            "orderNumber":"0001",
+            "parameter":[
+              {
+                "paramterName":"Order ID",
+                "value":"-",
+                "datType":"String",
+              }
+            ],
+            "block":"",
+            "subBlock":""
+        },
+        {
+            "orderNumber":"0042",
+            "parameter":[
+              {
+                "paramterName":"AA Cel : Vacumm Seal : Gap Connector",
+                "value":"Case_Sealed",
+                "datType":"String",
+              }
+            ],
+            "block":"South",
+            "subBlock":"Palass FG96"
+        }
+    ]
+}
