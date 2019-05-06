@@ -10,5 +10,26 @@ The goal of this project is to parse the excel file and return the a JSON file a
 
 ## About the excel file
 1. This excel file is a part of a vast data set storage in excel sreadsheets, indicating four types of data; String, Date, Float and Integer
-2. The headers must be preserved no matter what in the follow whay: Header1,Header2,Header3,Header4,ColumnName,Data,Block1,Block2
+2. The headers must be preserved no matter what in the follow JSON String;
+
+{
+    "orderName":"",
+    "modelNumber":"",
+    "order":[
+        {
+            "orderNumber":"0001",
+            "parameter":[
+              {
+                "paramterName":"Header1 : Header2 : Header3 : ColumnName",
+                "value":"",
+                "datType":"",
+              }
+            ],
+            "block":"",
+            "subBlock":""
+        }
+    ]
+}
+The order number field should be a 4 char String, and the parameterName should be delimited by ":" for every headers if is any, if not is just the name.
+
 3. The Blocks is grouping indicators in the middle of the data rows, is just for visualization porpuses, nevertheless needs to be part of the data. 
